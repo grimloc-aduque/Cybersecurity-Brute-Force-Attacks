@@ -16,6 +16,6 @@ Highly efficient multithreading applications capable of performing encryptions a
 * AES (256 bits)
 * 3DES (168 bits).
 
-The scheme consists of one thread in charge of generating the keys and adding them to a queue, and various other thread in charge of extracting the keys from the queue and performing the encryption/decryption.
+The scheme consists of one thread in charge of generating the keys and adding them to a queue, and several other threads in charge of pulling the keys from the queue and performing the encryption/decryption.
 
 Thanks to its modularity, the scheme can be easily extended to any other encryption algorithm.
