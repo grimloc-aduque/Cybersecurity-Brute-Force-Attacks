@@ -14,7 +14,7 @@ Java
 Highly efficient multithreading applications capable of performing encryptions and decryptions of:
 * DES (56 bits)
 * AES (256 bits)
-* 3DES (168 bits).
+* 3DES (168 bits)
 
 The scheme consists of one thread in charge of generating the keys and adding them to a queue, and several other threads in charge of pulling the keys from the queue and performing the encryption/decryption.
 
